@@ -1,0 +1,12 @@
+spring core 
+_______________ USING SETTER INJECTION/(property injection)___________________________________________________________________________
+
+pom.xml ---<dependencies>--- add spring context and spring core(both of the same version
+create Bean(pojo class) ----go to source--- use getter setter
+                                            generate contructor setttr fields  
+                                            genertae default constructor
+                                            generate toString method --if u dont use this it it will give refrence value not the required value
+                                            
+create config.xml file -------- for bean class -- add property value etc
+
+main method --- create object with the help of xml file...........ApplicationContext c= new ClassPathApplicationContext("xyz.xml");
