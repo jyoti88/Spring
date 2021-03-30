@@ -1,0 +1,56 @@
+package com.example;
+
+public class Student {
+	/**
+	 * @param studentname
+	 * @param id
+	 * @param address
+	 */
+   
+   
+   /*constructor using fields */
+	public Student(String studentname, int id, String address) {
+		super();
+		this.studentname = studentname;
+		this.id = id;
+		this.address = address;
+	}
+	/**
+	 * 
+	 */
+   
+   /* default constructor */
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	String studentname;
+	int id;
+	String address;
+	public String getStudentname() {
+		return studentname;
+	}
+	public void setStudentname(String studentname) {
+		System.out.println("name");
+		this.studentname = studentname;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+  
+  /* to string function for getting desired value */
+	@Override
+	public String toString() {
+		return "Student [studentname=" + studentname + ", id=" + id + ", address=" + address + "]";
+	}
+
+}
