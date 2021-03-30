@@ -23,4 +23,10 @@
    </bean>
    
  </beans>
+
+
+with pschema
+
+   <bean class ="com.example.Student1" name="studentb" p:studentname="msurys" p:id="4567" p:address="lko">
+   </bean>
  
